@@ -26,6 +26,8 @@ AUTHOR_FEED_RSS = None
 
 PAGE_URL = "{slug}.html"
 PAGE_SAVE_AS = "{slug}.html"
+ARTICLE_URL = "blog/{slug}"
+ARTICLE_SAVE_AS = "blog/{slug}.html"
 
 # Blogroll
 LINKS = (('About', '/about'),
