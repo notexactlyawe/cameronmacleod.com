@@ -24,16 +24,19 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+PAGE_URL = "{slug}.html"
+PAGE_SAVE_AS = "{slug}.html"
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('About', '/about'),
+         ('CV', '/cv'),
+         ('Projects', '/projects'),)
 
 # Social widget
 SOCIAL = (('twitter', 'http://twitter.com/notexactlyawe'),
         ('linkedin', 'https://uk.linkedin.com/in/cameronjohnmacleod'),
-        ('github', 'https://github.com/notexactlyawe'))
+        ('github', 'https://github.com/notexactlyawe'),
+        ('flickr', 'https://www.flickr.com/photos/rotor132'))
 
 DEFAULT_PAGINATION = 10
 
