@@ -24,6 +24,6 @@ Not overly enlightening stuff.
 
 No matter whether you are an extraordinary genius or you struggle with the puzzles on the backs of cereal boxes, you will give too much value to your own ideas. This narcissism is a fundamental and necessary component of human nature. If people weren't to have ideas that they believed in, then we wouldn't have any of the innovations that we have today. More than that, a lack of self-confidence in our ideas would lead to a lack of leaders, and society itself may not have developed - certainly not to the same extent it has.
 
-Beyond the cheapness of ideas, is there really any harm in scratching the itch of putting them somewhere? Not necessarily, but there is a freedom in learning to let them go. An idea that you are doing your best to remember is a bit of your mind that could be assigned to other things. Not only that, but good ideas tend to be remembered through their own virtue as opposed to needing to be explcitly remembered.
+Beyond the cheapness of ideas, is there really any harm in scratching the itch of putting them somewhere? Not necessarily, but there is a freedom in learning to let them go. An idea that you are doing your best to remember is a bit of your mind that could be assigned to other things. Not only that, but good ideas tend to be remembered through their own virtue as opposed to needing to be explicitly remembered.
 
 Everyone goes through a diary phase or buys a notebook at some point, it's a natural thing to do. But don't beat yourself up for stopping, that much is logical.
