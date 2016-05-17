@@ -17,4 +17,6 @@
 
 .links-container {
     width: 100%;
-   }
+    overflow: auto;
+    padding: 0 0 1rem 0;
+}
