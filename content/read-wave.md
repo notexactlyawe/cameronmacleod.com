@@ -82,5 +82,3 @@ a.fromfile(open(self.filename, 'rb'), os.path.getsize(self.filename)/a.itemsize)
 You just pass it a format string (of the same format as struct) and then call `fromfile` with a file object and the size of it. According to [this](http://stackoverflow.com/questions/5804052/improve-speed-of-reading-and-converting-from-binary-file-with-python) SO question it is up to 40X faster than `struct.unpack` *YMMV*.
 
 This has been my journey in attempting to read WAVE files and hopefully it will help. Most of the code in here has been adapted from my repository [abracadabra](https://github.com/notexactlyawe/abracadabra) and if you are looking for an up-to-date version of what I am using there might be a good place to look. This article is [also on Github](https://github.com/notexactlyawe/cameronmacleod.com) so if you see something wrong, please submit an issue.
-
-Hasta la vista, baby.
