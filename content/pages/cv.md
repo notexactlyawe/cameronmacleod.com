@@ -1,9 +1,6 @@
 Title: CV
 Slug: cv
 
-Contact
--------
-
 Intro
 -----
 
