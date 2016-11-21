@@ -20,6 +20,11 @@ I was part of the Tech Scholar programme, which meant that I was involved in a w
 
 Ironcraft is a small business in my home town that wanted to improve its online presence. Over the course of 3 months I managed to increase the unique monthly visitor count for the site from 300 to 1400 and improve both the usability and speed of their website.
 
+**Abbey Court Guest House**
+
+My parents have run guest houses since I was born. This has meant I have grown up helping them out in both customer-facing roles and in technical maintenance roles. It has given me a great phone manner, professionalism with customers face to face and experience in high-pressure environments from helping in the kitchen in the mornings. One project I undertook towards the end of my time at home was rebuilding our network to offer a free Wi-fi service to our guests. We now have a reliable network with 100% house coverage that can handle 25 users with all their devices at a time.
+
+
 Voluntary positions
 -------------------
 
@@ -56,13 +61,12 @@ Spanish: [Implementación de un Identificador de Sonido en Python](https://www.y
 I have done a variety of projects in my spare time to learn new concepts, languages and frameworks. A list of the non-trivial ones can be found on my [GitHub](https://github.com/notexactlyawe). These include generating ASCII art from images, exploring genetic algorithms and automated lesson generation.
 
 
-University
-----------
+Recognition and Awards
+----------------------
 
-During my first year my courses include:
+**GreatUniHack 2016**
+Won first prize with our hack [Wimphony](https://github.com/officialgupta/wimphony). Wimphony took Wi-fi SSIDs and RSSIs at various locations and mapped them in a virtual world. It would then generate music based off of the SSID and would place this sound in the virtual world. The user could then explore this world using Google Cardboard.
 
-**Functional Programming** - An introduction to Haskell and thinking in the functional paradigm.
+**YRS 2014**
+Won Best In Show (public vote) with a smart coat hanger called [Hook](https://www.youtube.com/watch?v=RZLRILzVS6Q). Hook would query the weather each day and light up the hanger holding the appropriate item of clothing for that day.
 
-**Computation and Logic** - Covers the foundations of formal logic, and introduces the idea of computing. This includes concepts such as regular languages, finite state machines and resolution.
-
-**Russian Studies 1A** - An ab initio intensive course in Russian language and culture. Runs for the full year.
