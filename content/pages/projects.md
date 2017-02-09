@@ -3,6 +3,8 @@ Slug: projects
 
 This page contains links to most of my projects. Presumably the most important ones are those that I remembered to include, so feel free to consider this conclusive.
 
+**[SoundSparrow](https://github.com/aga11313/soundsparrow)** - This was a project that came out of HackCambridge 2017. It allows the user to have a unique song that changes based on their mood and to share this song with others, whilst hearing other songs at the same time. My contribution to the project was mainly in the BLE advertising and scanning. I enjoyed it as I had little experience with Bluetooth on Android before.
+
 **[PaperTurtle](https://github.com/notexactlyawe/paper-reader)** - This is a project that started at AngelHack London 2016. It aims to simplify reading academic papers, by highlighting the concepts featured and helping the user to understand them. It provides links to Khan Academy, Youtube and Wikipedia for each concept and finds founding concepts that have to be understood first. This could help non-expert innovators and the general public to access cutting-edge concepts.
 
 **[Abracadabra](https://github.com/notexactlyawe/abracadabra)** - This is a Shazam-style sound recogniser that I am writing in Python. Documentation is a little sparse right now, but it basically consists a fingerprinter and a storage system. 
