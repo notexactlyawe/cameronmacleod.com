@@ -6,7 +6,7 @@ Profile
 
 Computer science student at the University of Edinburgh with a wide range of experience in areas both within software development and outside it looking for internships or part-time term work.
 
-Worked with a large set of technologies including Python, Flask, Android, C, Elixir, .NET and JavaScript. Frequently attend Meetup groups in software areas and hackathons both to help improve my skills and for fun. Have given talks both at local meetups and EuroPython 2016. My interests outside of software include bass guitar, hockey and languages. Fluent in Spanish and am learning Russian at university.
+Worked with a large set of technologies including Python, Flask, Android, C, Elixir, .NET and JavaScript. Frequently attend Meetup groups in software areas and hackathons both to help improve my skills and for fun. Have given talks both at local meetups and EuroPython 2016. Interests outside of software include bass guitar, hockey and languages. Fluent in Spanish and learning Russian at university.
 
 
 Previous Positions
@@ -14,7 +14,7 @@ Previous Positions
 
 **Tech Scholar - Cambridge Consultants** (September 2015-September 2016 | *Cambridge*)
 
-Part of the placement year programme, which meant that I was involved in a wide variety of work in areas across the company. Worked on projects in (frequently overlapping) areas from embedded devices to DSP to computer vision. The job required learning new technologies rapidly and being able to change mindsets quickly to solve different problems.
+I took part in the placement year programme, which meant I was involved in a wide variety of work in areas across the company. Worked on projects in (frequently overlapping) areas from embedded devices to DSP to computer vision. The job required learning new technologies rapidly and being able to change mindsets quickly to solve different problems.
 
 **Webmaster - Ironcraft Fires and Stoves Ltd.** (Summer 2012 | *Shrewsbury*)
 
@@ -22,7 +22,7 @@ Ironcraft is a small business that wanted to improve its online presence. Over t
 
 **Abbey Court Guest House** (*Shrewsbury*)
 
-I have grown up in family guest houses helping my parents out in both customer-facing roles and in technical maintenance roles. This has led me to undertake projects such as rebuilding our network to offer a free Wi-fi service to our guests. We now have a reliable network with 100% house coverage that can handle 25 users with all their devices at a time. It has given me a confident and professional phone manner, strong rapport with customers face to face and experience in a high-pressure catering environment. 
+I have grown up in a guest house helping my parents out in both customer-facing roles and in technical maintenance roles. This has led me to undertake projects such as rebuilding our network to offer a free Wi-fi service to our guests. We now have a reliable network with 100% house coverage that can handle 25 users with all their devices at a time. It has given me a confident and professional phone manner, strong rapport with customers face to face and experience in a high-pressure catering environment. 
 
 
 Personal projects
@@ -34,7 +34,7 @@ abracadabra came about through my attempt to understand how Shazam works. It is 
 
 [Implementing a Sound Identifier in Python](https://www.youtube.com/watch?v=LZ7THTB88AE)
 
-Undertaken a variety of other projects in my spare time to learn new concepts, languages and frameworks. A list of the non-trivial ones can be found on my [GitHub](https://github.com/notexactlyawe). These include generating ASCII art from images, exploring genetic algorithms and automated lesson generation.
+I have undertaken a variety of other projects in my spare time to learn new concepts, languages and frameworks. A list of the non-trivial ones can be found on my [GitHub](https://github.com/notexactlyawe). These include power gloves, Android Bluetooth apps, exploring genetic algorithms and automated music generation.
 
 
 Education
