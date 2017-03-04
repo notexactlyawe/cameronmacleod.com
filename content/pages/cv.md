@@ -6,7 +6,7 @@ Profile
 
 Computer science student at the University of Edinburgh with a wide range of experience in areas both within software development and outside it looking for internships or part-time term work.
 
-Worked with a large set of technologies including Python, Flask, Android, C, Elixir, .NET and JavaScript. Frequently attend Meetup groups in software areas and hackathons both to help improve my skills and for fun. Have given talks both at local meetups and EuroPython 2016. Interests outside of software include bass guitar, hockey and languages. Fluent in Spanish and learning Russian at university.
+Worked with a large set of technologies including Python, Flask, Android, C, Elixir, .NET and JavaScript. Frequently attends hackathons both to help improve my skills and for fun. Have given talks both at local meetups and EuroPython 2016. Interests outside of software include bass guitar, hockey and languages. Fluent in Spanish and learning Russian at university.
 
 
 Previous Positions
@@ -22,11 +22,15 @@ Ironcraft is a small business that wanted to improve its online presence. Over t
 
 **Abbey Court Guest House** (*Shrewsbury*)
 
-I have grown up in a guest house helping my parents out in both customer-facing roles and in technical maintenance roles. This has led me to undertake projects such as rebuilding our network to offer a free Wi-fi service to our guests. We now have a reliable network with 100% house coverage that can handle 25 users with all their devices at a time. It has given me a confident and professional phone manner, strong rapport with customers face to face and experience in a high-pressure catering environment. 
+I grew up in a guest house helping my parents out in both customer-facing and in maintenance roles. This has led me to undertake projects such as rebuilding our network to offer a free Wi-fi service to our guests. We now have a reliable network with 100% house coverage that can handle 25 users with all their devices at a time. It has given me a confident and professional phone manner, strong rapport with customers face to face and experience in high-pressure environments with the catering side of the business. 
 
 
 Personal projects
 -----------------
+
+**Embedded and Robotics Society**
+
+Currently co-founding a society at the University to bring together people interested in embedded development and robotics. The role involves a wide variety of work including planning events, obtaining sponsorship and writing educational materials.
 
 **abracadabra**
 
@@ -59,10 +63,6 @@ Qualified FA with St John Ambulance and during my time in Cambridge I was involv
 **STEM Ambassador** (January 2016- | *UK-wide*)
 
 STEM ambassador with STEMNET. STEMNET arrange many events to excite children about STEM careers and I am often involved in the events that focus on software. I have done some work with the BBC micro:bit as a result of this.
-
-**The Centre for Computing History** (October 2015-August 2016 | *Cambridge*)
-
-Customer facing role, mostly manning front desk, but also occasionally showing visitors round and helping them appreciate the exhibits.
 
 **Shrewsbury Museum and Art Gallery** (September 2014-July 2015 | *Shrewsbury*)
 
