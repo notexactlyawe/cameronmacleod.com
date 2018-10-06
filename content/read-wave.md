@@ -1,5 +1,5 @@
 Title: How to read WAVE files in Python
-Date: 2016-04-07 19:30
+Date: 2016-04-07
 Slug: reading-wave-python
 Category: Python
 
