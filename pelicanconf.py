@@ -33,7 +33,7 @@ ARTICLE_SAVE_AS = "blog/{slug}.html"
 
 # Blogroll
 LINKS = (('About', '/about'),
-         ('CV', '/cv'),
+         ('CV', '/cv.pdf'),
          ('Projects', '/projects'),)
 
 # Social widget
