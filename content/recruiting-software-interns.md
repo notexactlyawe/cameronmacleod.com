@@ -46,12 +46,13 @@ It's also worth mentioning that a lot of the most talented students I know are n
 ------
 
 **TL;DR**
- - Start looking early
- - Review applications as they come in
- - Be clear with how the process works
- - Put a lot of thought into your interview questions
- - Reimburse travel (at least nationally)
- - Don't ignore first and second years
+
+ - Start looking early  
+ - Review applications as they come in  
+ - Be clear with how the process works  
+ - Put a lot of thought into your interview questions  
+ - Reimburse travel (at least nationally)  
+ - Don't ignore first and second years  
 
 Internships are a fantastic thing for all parties involved. Interns get great experience and companies get access to some of the smartest engineers at an early stage in their career. Getting the recruiting process right can lead to great things for your organisation, and it's a shame to see simple mistakes being made.
 
