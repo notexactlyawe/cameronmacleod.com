@@ -9,6 +9,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
         <title>{% if article %}{{ article.title }} - {% endif %}{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        {% if article %}
+        <meta name="title" property="og:title" content="{{ article.title }} - {{ SITENAME }}">
+        <meta property="og:type" content="Article">
+        {% endif %}
+
+        <meta name="author" content="Cameron MacLeod">
 
 		<!-- CSS -->
 		<link href="//fonts.googleapis.com/" rel="dns-prefetch">
