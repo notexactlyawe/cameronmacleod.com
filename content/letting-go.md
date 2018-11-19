@@ -1,4 +1,4 @@
-Title: The Importance of Letting Go of Ideas
+Title: The importance of letting go of ideas
 Date: 2016-03-13
 Slug: importance-of-letting-go
 Category: Misc

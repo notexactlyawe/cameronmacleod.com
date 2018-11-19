@@ -1,4 +1,4 @@
-Title: 5 Mistakes Companies Make Recruiting Software Interns
+Title: 5 Mistakes companies make recruiting software interns
 Date: 2018-11-14
 Slug: recruiting-software-interns
 Category: Opinion
