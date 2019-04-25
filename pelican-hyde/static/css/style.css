@@ -12,11 +12,16 @@
 }
 
 .sidebar-nav-item {
-    margin: .2rem .2rem 0 .2rem;
+  margin: .2rem .2rem 0 .2rem;
 }
 
 .links-container {
-    width: 100%;
-    overflow: auto;
-    padding: 0 0 1rem 0;
+  width: 100%;
+  overflow: auto;
+  padding: 0 0 1rem 0;
+}
+
+details {
+  background-color: #EEEEEE;
+  padding: 1em;
 }
