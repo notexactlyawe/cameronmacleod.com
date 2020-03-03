@@ -7,13 +7,13 @@ SITENAME = u'Cameron MacLeod'
 SITEURL = ''
 
 PATH = 'content'
-OUTPUT_PATH = 'notexactlyawe.github.io'
+OUTPUT_PATH = 'develop-output'
 
 THEME='pelican-hyde'
 
 PROFILE_IMAGE='profile.jpg'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'Europe/London'
 
 DEFAULT_LANG = u'en'
 

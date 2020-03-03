@@ -7,9 +7,12 @@ To get up and running with this site, you need to install Pelican, which can be 
 
 `pip install pelican`
 
-The version I am using is 3.6.3.
+The version I am using is 3.7.1.
 
-You can then just run `pelican -o notexactlyawe.github.io/` from this directory to create the output files in the folder `notexactlyawe.github.io`.
+Developing
+----------
+
+Running `pelican` will use `pelicanconf.py` by default, which will output files to `develop-output`. When you want to publish, run `pelican -s publishconf.py` and it will output publishable files (including absolute URLS, feeds etc) to the folder `notexactlyawe.github.io`.
 
 Contributing
 ------------
