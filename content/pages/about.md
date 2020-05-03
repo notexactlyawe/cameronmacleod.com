@@ -1,8 +1,36 @@
 Title: About Me
 Slug: about
 
-Hello! My name is Cameron and I make things. I quite like software and I quite like hardware and sometimes I mix the two. Other than code I can often be found doing things with languages or music and sometimes photography.
+<script>
+var email;
 
-I am currently a Computer Science student at the University of Edinburgh. If you would like to hire me, then perhaps you would like a look at my [CV](/cv.pdf). If not, then why not take a look at my [projects](/projects)?
+function add_mailto() {
+  const elem = document.getElementById("emailclick");
+  elem.href = `mailto:${email}`;
+}
 
-This is my personal site and so views presented here do not necessarily reflect those of my employer.
+function replace_email() {
+  // short function to prevent spambots from scraping my email
+  const domain = "gmail.com";
+  const name = [16, 30, 18, 16, 31, 22, 28, 23, 66, 68, 67];
+  const xor_with = 115;
+  let constructed = "";
+  name.forEach(function(i) {
+    constructed += String.fromCharCode(i ^ xor_with);
+  })
+  email = `${constructed}@${domain}`;
+  const elem = document.getElementById("emailclick");
+  elem.text = email;
+  // need to delay this so that the mailto gets added after the click, otherwise
+  // an unexpected mail dialogue will popup
+  window.setTimeout(add_mailto, 100);
+}
+</script>
+
+Hello! I'm Cameron, and this is my personal blog. New posts come out sometimes, and usually are on technical topics related to software development. If you want to contact me you can email me at <a href="#" id="emailclick" onclick="replace_email()">click to reveal</a> or find me in one of the sidebar links.
+
+I'm just about to graduate from the University of Edinburgh with a degree in computer science and will be joining Google as an associate product manager in August. Previously I've done a few internships in software development (see my [CV](/cv.pdf)).
+
+In my free time you can find me coding, writing, playing the bass or more likely starting projects that I will never finish.
+
+This is my personal site and views presented here do not necessarily reflect those of my employer.
