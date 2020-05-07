@@ -1,6 +1,35 @@
 Title: About Me
 Slug: about
 
+<script type="application/ld+json">
+{
+"@context": "http://www.schema.org",
+"@type": "Person",
+"@id": "https://www.cameronmacleod.com/#person",
+"name": "Cameron MacLeod",
+"nationality": "British",
+"alumniOf": [
+	{
+	 "@type": "CollegeOrUniversity",
+	 "name": "University of Edinburgh",
+	 "sameAs": "https://en.wikipedia.org/wiki/University_of_Edinburgh"
+	}
+],
+"gender": "Male",
+"Description": "Developer",
+"url": "https://www.cameronmacleod.com",
+"image": "https://www.cameronmacleod.com/images/profile.jpg",
+"sameAs": [
+	"https://twitter.com/notexactlyawe",
+	"https://www.linkedin.com/in/cameronjohnmacleod/",
+	"https://github.com/notexactlyawe",
+	"https://angel.co/u/cameron-macleod-2",
+	"https://stackoverflow.com/users/1546934/cjm",
+	"https://www.flickr.com/people/rotor132"
+	]
+}
+</script>
+
 <script>
 var email;
 
