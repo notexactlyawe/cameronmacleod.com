@@ -13,13 +13,11 @@
 			<p></p>
 		</div>
         <div class="links-container">
-		<div>
             {% for name, link in LINKS %}
                 <a class="sidebar-links-item" href="{{ link }}">
                     {{ name }}
                 </a>
             {% endfor %}
-        </div>
 		<nav class="sidebar-nav">
 			{% for name, link in SOCIAL %}
 				{% if name == 'email' %}
