@@ -24,7 +24,17 @@
   font-weight: bold;
 }
 
+.subtitle {
+  font-weight: bold;
+  color: gray;
+}
+
 details {
   background-color: #EEEEEE;
   padding: 1em;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }

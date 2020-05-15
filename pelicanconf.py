@@ -31,6 +31,17 @@ PAGE_SAVE_AS = "{slug}.html"
 ARTICLE_URL = "blog/{slug}"
 ARTICLE_SAVE_AS = "blog/{slug}.html"
 
+# Markdown extensions
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {}
+    },
+    'output_format': 'html5',
+}
+
 # Blogroll
 LINKS = (('About', '/about'),
          ('CV', '/cv.pdf'),
