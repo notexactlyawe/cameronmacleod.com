@@ -1,7 +1,8 @@
 Title: Disappearing documentation (a Kubernetes war story)
 Date: 2020-05-03
 Slug: disappearing-k8s-docs
-Category: Kubernetes
+Tags: Kubernetes, Documentation
+Category: Blogging
 
 I like a good war story, and I like them even more when I get to tell them. While writing my dissertation, I ran into a case of disappearing documentation. Here's what happened.
 

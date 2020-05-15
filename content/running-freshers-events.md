@@ -1,7 +1,8 @@
 Title: How we ran Welcome Week events
 Date: 2018-10-06
 Slug: running-freshers-events
-Category: Events
+Tags: Societies, Events
+Category: Blogging
 
 At the University of Edinburgh we call the week before lectures begin each year Welcome Week. It's designed as a time for new students to meet each other and get settled into university and often a new city. Most societies will run events to try and attract new students to join them and we ([EaRS](http://ears-edi.com/)) were no different. After all, a society dies when no-one is interested any more.
 

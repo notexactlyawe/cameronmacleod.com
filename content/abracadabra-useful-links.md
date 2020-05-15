@@ -1,7 +1,8 @@
 Title: Useful links relating to abracadabra
 Date: 2016-07-18
 Slug: abracadabra-links
-Category: Python
+Tags: Python, abracadabra
+Category: Link collections
 
 Here is a collection of links relating to abracadabra that may be useful for anyone looking to do something similar.
 

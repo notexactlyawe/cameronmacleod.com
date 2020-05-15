@@ -1,7 +1,8 @@
 Title: Easy Python speed wins with functools.lru_cache
 Date: 2019-06-10
 Slug: python-lru-cache
-Category: Python
+Tags: Caching, Python, Performance
+Category: Tutorials
 
 Recently, I was reading an [interesting article](https://datawhatnow.com/things-you-are-probably-not-using-in-python-3-but-should/) on some under-used Python features. In the article, the author mentioned that from Python version 3.2, the standard library came with a built in decorator `functools.lru_cache` which I found exciting as it has the potential to speed up a lot of applications with very little effort.
 

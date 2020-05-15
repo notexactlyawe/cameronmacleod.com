@@ -1,7 +1,8 @@
 Title: Diagnosing performance issues in a Flask app
 Date: 2018-04-22
 Slug: sqlalchemy-speed
-Category: Python
+Tags: Python, Databases, SQLAlchemy
+Category: Blogging
 
 I was recently part of the team that ran [CreatED](https://createdhack.github.io), the UK’s first hardware hackathon of its kind. Organising it was stressful at times and incredibly rewarding at others, especially when it came to the event actually happening. During the run up to the event, we learned a lot about what actually needs to happen for a hackathon to run and one of those things was the setting up of event software.
 

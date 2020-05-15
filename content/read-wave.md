@@ -1,7 +1,8 @@
 Title: How to read WAVE files in Python
 Date: 2016-04-07
 Slug: reading-wave-python
-Category: Python
+Tags: Python, Audio
+Category: Tutorials
 
 Any project that uses audio will usually start out using WAVE files for its on-disk presence, and as with many things in Python, there's a standard library module for that. Now don't get me wrong in the rest of this article - `wave` does the job. The thing is that it can be a bit confusing to get started with and it's not *always* the best tool for the job. This post will go over my journey in reading WAVEs and the various approaches I found.
 

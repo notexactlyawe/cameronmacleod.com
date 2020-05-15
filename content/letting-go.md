@@ -1,7 +1,7 @@
 Title: The importance of letting go of ideas
 Date: 2016-03-13
 Slug: importance-of-letting-go
-Category: Misc
+Category: Blogging
 Summary: On May 29 2015, I made my first entry into a fancy notebook I had bought. This was going to be it, I was never again going to struggle in vain to remember that killer idea I had earlier. Everything was getting written down from here on out.
 
 On May 29 2015, I made my first entry into a fancy notebook I had bought. This was going to be it, I was never again going to struggle in vain to remember that killer idea I had earlier. Everything was getting written down from here on out.

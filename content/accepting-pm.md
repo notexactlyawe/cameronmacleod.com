@@ -1,7 +1,8 @@
 Title: Why I chose product management over software development
 Date: 2020-03-03
 Slug: why-pm-over-software
-Category: Work
+Tags: Career, Product Management
+Category: Blogging
 
 I'm about to finish my degree and have been fortunate enough to receive two graduate job offers. One was an associate product manager position at Google, and the other was software engineering at Bloomberg. Both companies and jobs excited me, which left me with a difficult choice. In this post, I'll explain why I chose product management, even after years of wanting to be a software developer.
 

@@ -1,7 +1,8 @@
 Title: 5 Mistakes companies make recruiting software interns
 Date: 2018-11-14
 Slug: recruiting-software-interns
-Category: Opinion
+Tags: Career, Recruiting
+Category: Blogging
 
 August to November is internship application season for computer science undergraduates and over the past few months I've been applying to a good number of internships myself. Through these applications I've learnt a few things about what makes for a good recruitment process and what doesn't and I hope to share a few of them here.
 

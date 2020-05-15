@@ -1,7 +1,8 @@
 Title: Better parameter validation in Flask with marshmallow
 Date: 2019-04-25
 Slug: better-validation-flask-marshmallow
-Category: Python
+Tags: Python, Flask, marshmallow, Web apps
+Category: Tutorials
 
 Recently I've had two Flask projects with endpoints that take lots of parameters. While working on the first project, I noticed that I was writing a lot of code for validation in each method, and it ended up looking ugly and probably full of bugs. When I started the second project, I thought that there had to be a way to fix this, and it turns out that there was!
 

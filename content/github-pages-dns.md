@@ -1,7 +1,8 @@
 Title: How to configure DNS for custom domains on GitHub Pages
 Date: 2018-11-20
 Slug: github-pages-dns
-Category: Blogging
+Tags: Github Pages, DNS
+Category: Tutorials
 
 Recently-ish GitHub [announced](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/) that HTTPS would now work on custom domains with GitHub Pages. This was a great bit of news, because the web is slowly moving towards a HTTPS-only state of being and it's nice not to be left behind.
 
