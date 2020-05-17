@@ -80,7 +80,6 @@ html {
 .sidebar-about h1 {
   color: #fff;
   margin-top: 0;
-  font-family: "Abril Fatface", serif;
   font-size: 3rem;
 }
 
@@ -153,7 +152,7 @@ a.sidebar-nav-item.active:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 38rem;
+    max-width: 50%;
     margin-left: 20rem;
     margin-right: 2rem;
   }

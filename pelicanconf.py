@@ -31,6 +31,17 @@ PAGE_SAVE_AS = "{slug}.html"
 ARTICLE_URL = "blog/{slug}"
 ARTICLE_SAVE_AS = "blog/{slug}.html"
 
+# Markdown extensions
+MARKDOWN = {
+    'extension_configs': {
+        'markdown.extensions.codehilite': {'css_class': 'highlight'},
+        'markdown.extensions.extra': {},
+        'markdown.extensions.meta': {},
+        'markdown.extensions.toc': {}
+    },
+    'output_format': 'html5',
+}
+
 # Blogroll
 LINKS = (('About', '/about'),
          ('CV', '/cv.pdf'),
@@ -42,7 +53,7 @@ SOCIAL = (('twitter', 'http://twitter.com/notexactlyawe'),
         ('github', 'https://github.com/notexactlyawe'),
         ('flickr', 'https://www.flickr.com/photos/rotor132'))
 
-DEFAULT_PAGINATION = 7
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
