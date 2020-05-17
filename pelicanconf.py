@@ -53,7 +53,7 @@ SOCIAL = (('twitter', 'http://twitter.com/notexactlyawe'),
         ('github', 'https://github.com/notexactlyawe'),
         ('flickr', 'https://www.flickr.com/photos/rotor132'))
 
-DEFAULT_PAGINATION = 7
+DEFAULT_PAGINATION = 20
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
