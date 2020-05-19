@@ -1,18 +1,29 @@
 Title: Projects
 Slug: projects
 
-This page contains links to most of my projects. Presumably the most important ones are those that I remembered to include, so feel free to consider this conclusive.
+Here are some of the things that I'm proud of, roughly in chronological order (newest first).
 
-**[SoundSparrow](https://github.com/aga11313/soundsparrow)** - This was a project that came out of HackCambridge 2017. It allows the user to have a unique song that changes based on their mood and to share this song with others, whilst hearing other songs at the same time. My contribution to the project was mainly in the BLE advertising and scanning. I enjoyed it as I had little experience with Bluetooth on Android before.
+### Deploying mobile core networks using Kubernetes - undergraduate dissertation
 
-**[PaperTurtle](https://github.com/notexactlyawe/paper-reader)** - This is a project that started at AngelHack London 2016. It aims to simplify reading academic papers, by highlighting the concepts featured and helping the user to understand them. It provides links to Khan Academy, Youtube and Wikipedia for each concept and finds founding concepts that have to be understood first. This could help non-expert innovators and the general public to access cutting-edge concepts.
+![Architecture of my dissertation project](/images/dissertationarch.jpg)
 
-**[Abracadabra](https://github.com/notexactlyawe/abracadabra)** - This is a Shazam-style sound recogniser that I am writing in Python. Documentation is a little sparse right now, but it basically consists a fingerprinter and a storage system. 
+Mobile core networks traditionally have been deployed using custom-built hardware, and more recently using virtualised network functions. Containerisation provides a number of benefits over using virtual machines, and so my dissertation was looking at orchestrating the 4G core network using Kubernetes. You can read it [here](/dissertation.pdf).
 
-*Update: I gave a talk at EuroPython 2016 on the project
-[English version](https://www.youtube.com/watch?v=LZ7THTB88AE) | 
-[Spanish version](https://www.youtube.com/watch?v=KMMHJch77dk)*
+### CreatED 2018 - 24-hour hardware hackathon
 
-**[Image to ASCII art converter](https://github.com/notexactlyawe/ascii-art)** - Exactly what it says on the tin. Not a polished tool at all, but it (usually) does the job and there are instructions in the repo for setting it up.
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/XxBmfbMEXd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**[SpellingBee](https://github.com/notexactlyawe/SpellingBee)** - AS project for computing. This repo is disgusting and was made before I understood many things including git, so please excuse it. Hopefully at some point I will get to tidy it up. It is a spelling test application with features such as logins and a database of the entirety of the English language according to wiktionary at that time. The most interesting code written for it was the code that parsed the wiktionary dump. Unfortunately the only code not saved was the code that parsed the wiktionary dump.
+[CreatED](https://createdhack.com/2018/) was the UK's first student-run hardware hackathon and hosted ~100 people. A hackathon is a making event, where participants get together in teams to build something over the course of 24 hours. CreatED's twist was that all hacks had to include electronic components or embedded software somehow. I was responsible for sponsorship, workshops and event software.
+
+### Deeper Blue - chess playing robot
+
+![Deeper Blue logo](/images/deeperblue.svg)
+
+This was a group project for university to build an assistive robot. We chose to build a robot targeted at disabled chess players. The robot had an accessible web interface for players to input moves, and would move the pieces on a physical board. I was mostly responsible for the Python backend server that maintained state and interfaced between the web-app and the robot itself. The repositories are available under the [deeper-blue GitHub organisation](https://github.com/deeper-blue/).
+
+### abracadabra - Shazam-style sound recognition
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LZ7THTB88AE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[Spanish version](https://www.youtube.com/watch?v=KMMHJch77dk)
+
+Shazam released a paper in 2003 on how their algorithm worked. Shazam is fascinating to me and so I set out trying to replicate the paper's algorithm in Python. I never quite finished the project, but I gave a talk on it at EuroPython 2016.
