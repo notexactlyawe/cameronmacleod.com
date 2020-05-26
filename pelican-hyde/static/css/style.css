@@ -44,6 +44,73 @@ dfn {
   font-weight: bold;
 }
 
+.csdegree-year {
+  background-color: #6a9fb5;
+  color: #fff;
+  padding: 1em;
+  margin-bottom: 2em;
+  position: relative;
+  border-radius: 15px;
+}
+
+@media (min-width: 48em){
+  .csdegree-year {
+    width: calc(95vw - 22rem);
+  }
+}
+
+.csdegree-sem {
+  background-color: #CEE3ED;
+  color: #000;
+  border-radius: 15px;
+  padding: 1em 0;
+  margin: 1em 0;
+}
+
+.csdegree-sem-wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.csdegree-course {
+  border-radius: 20px;
+  border: 1px black solid;
+  width: 40%;
+  min-width: 18em;
+  margin: 0.5em 1em;
+  padding: 0.5em;
+  background-color: #fff;
+}
+
+div.csdegree-year h2 {
+  text-align: center;
+}
+
+div.csdegree-sem h3 {
+  text-align: center;
+}
+
+.csdegree-course summary {
+  padding-bottom: 1em;
+  outline: 0;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+div.optional {
+  background-color: #eee;
+}
+
+div.full-year {
+  width: 70%;
+}
+
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.2em;}

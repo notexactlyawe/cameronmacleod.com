@@ -3,10 +3,10 @@ Subtitle: A detailed tutorial (simulator included)
 Date: 2020-05-18
 Slug: microbit-snake
 Tags: micro:bit, Python, Games
-Summary:![Header image](/images/microbitsnake/header.png) By the end of this tutorial, you'll have built your very own game and learned not only about game development, but Python and the BBC micro:bit too. What's more, you don't even need to own a micro:bit to follow along!
+Summary:![](/images/microbitsnake/header.png) By the end of this tutorial, you'll have built your very own game and learned not only about game development, but Python and the BBC micro:bit too. What's more, you don't even need to own a micro:bit to follow along!
 Category: Tutorials
 
-![Header image](/images/microbitsnake/header.png)
+![](/images/microbitsnake/header.png)
 
 By the end of this tutorial, you'll have built your very own game and learned not only about game development, but Python and the BBC micro:bit too. What's more, you don't even need to own a micro:bit to follow along!
 
