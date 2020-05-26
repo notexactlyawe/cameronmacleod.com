@@ -48,8 +48,7 @@ LINKS = (('About', '/about'),
          ('Projects', '/projects'),)
 
 # Social widget
-SOCIAL = (('twitter', 'http://twitter.com/notexactlyawe'),
-        ('linkedin', 'https://uk.linkedin.com/in/cameronjohnmacleod'),
+SOCIAL = (('linkedin', 'https://uk.linkedin.com/in/cameronjohnmacleod'),
         ('github', 'https://github.com/notexactlyawe'),
         ('flickr', 'https://www.flickr.com/photos/rotor132'))
 
