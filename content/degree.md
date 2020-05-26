@@ -17,7 +17,7 @@ The courses are broken down by year and semester. Each course has the following 
 <div class="csdegree-course ">
   <summary>Name and link to full course description</summary>
 
-  Some information about the course, including searchable terms where appropriate.
+  Some information about the course, including searchable terms where appropriate and the main textbook used.
   <br /><br />
   Number of credits to give you an idea of how much depth each course has.
 </div>
@@ -41,10 +41,14 @@ With that out the way, here's the full list.
           <li>Set theory</li>
         </ul>
 
+        <p>Textbook: <a href="https://myelms.umd.edu/courses/1154654/files/39380916/download?download_frd=1">Mathematical Methods in Linuguistics</a></p>
+
         10 credits
       </div>
       <div class="csdegree-course"><summary><a href="https://www.inf.ed.ac.uk/teaching/courses/inf1/fp/">Functional Programming</a></summary>
         <p>Introductory course on Haskell. Gets as far as monads, but doesn't really address them that thoroughly.</p>
+
+        <p>Textbook: <a href="http://learnyouahaskell.com/">Learn you a Haskell for Great Good!</a></p>
 
         <p>10 credits</p>
       </div>
@@ -57,6 +61,8 @@ With that out the way, here's the full list.
           <li>Eigenvalues/eigenvectors</li>
         </ul>
 
+        <p>Textbook: 'Linear Algebra, A Modern Introduction' by David Poole</p>
+
         20 credits
       </div>
     </div>
@@ -67,6 +73,8 @@ With that out the way, here's the full list.
       <div class="csdegree-course"><summary><a href="http://www.drps.ed.ac.uk/16-17/dpt/cxinfr08014.htm">Object-oriented Programming</a></summary>
         <p>Honestly, I didn't really pay attention to this course. It taught introductory Java.</p>
 
+        <p>Textbook: 'The Java Tutorial: A Short Course on the Basics' - Raymond Gallardo et al.</p>
+
         <p>10 credits</p>
       </div>
       <div class="csdegree-course"><summary><a href="https://blog.inf.ed.ac.uk/da18/">Data and Analysis</a></summary>
@@ -74,12 +82,16 @@ With that out the way, here's the full list.
           <li>SQL/Basic databases</li>
           <li>XML</li>
           <li>Text corpora</li>
+
+          <p>Textbook: Unknown. The lecturer handed out notes for this course</p>
         </ul>
 
          10 credits
       </div>
       <div class="csdegree-course"><summary><a href="http://www.drps.ed.ac.uk/16-17/dpt/cxmath08058.htm">Calculus and its Applications</a></summary>
         <p>Introductory calculus course. It covered single variable integration, differentiation and series.</p>
+
+        <p>Textbook: 'Essential Calculus: Early Transcendentals' - James Stewart</p>
 
         <p>20 credits</p>
       </div>
@@ -109,6 +121,8 @@ With that out the way, here's the full list.
           <li>Grammars</li>
         </ul>
 
+        <p>Textbook: Speech and Language Processing, Jurafsky, D and J. H. Martin</p>
+
          20 credits
       </div>
       <div class="csdegree-course"><summary><a href="https://www.inf.ed.ac.uk/teaching/courses/inf2c-cs/">Introduction to Computer Systems</a></summary>
@@ -117,6 +131,8 @@ With that out the way, here's the full list.
           <li>C programming</li>
           <li>Basic processor and digital logic design</li>
         </ul>
+
+        <p>Textbook: Computer Organisation and Design, D.A. Patterson and J.L. Hennessy</p>
 
          10 credits
       </div>
@@ -129,6 +145,8 @@ With that out the way, here's the full list.
           <li>Version control</li>
         </ul>
 
+        <p>Textbook: Software Engineering, Ian Sommerville</p>
+
          10 credits
       </div>
       <div class="csdegree-course"><summary><a href="http://www.drps.ed.ac.uk/16-17/dpt/cxinfr08023.htm">Discrete Mathematics and Mathematical Reasoning</a></summary>
@@ -140,6 +158,8 @@ With that out the way, here's the full list.
           <li>Trees</li>
           <li>Discrete probabilities</li>
         </ul>
+
+        <p>Textbook: Discrete Mathematics and its Applications, Kenneth Rosen</p>
 
          20 credits
       </div>
@@ -156,6 +176,8 @@ With that out the way, here's the full list.
           <li>Sorting algorithms</li>
           <li>Graphs</li>
         </ul>
+        <p>Textbook: <a href="http://ww0.java4.datastructures.net/">Data Structures and Algorithms in Java</a>, Goodrich, M T and Tamassia</p>
+
         The other half of the course was focused on machine learning.
         <ul>
           <li>Dimensionality in data (PCA etc)</li>
@@ -164,6 +186,8 @@ With that out the way, here's the full list.
           <li>Gaussians</li>
           <li>Neural networks</li>
         </ul>
+
+        <p>Textbook: <a href="http://www.dcs.gla.ac.uk/~srogers/firstcourseml/">A First Course in Machine Learning</a> - second edition, Simon Rogers and Mark Girolami</p>
 
          20 credits
       </div>
@@ -179,6 +203,8 @@ With that out the way, here's the full list.
           <li>Birth and death processes</li>
         </ul>
 
+        <p>Textbook: A First Course in Probability, Sheldon Ross</p>
+
          20 credits
       </div>
       <div class="csdegree-course optional"><summary><a href="https://www.inf.ed.ac.uk/teaching/courses/inf2d/">Reasoning and Agents</a> (optional)</summary>
@@ -192,6 +218,8 @@ With that out the way, here's the full list.
           <li>Bayes Theorem</li>
           <li>Markov decision processes</li>
         </ul>
+
+        <p>Textbook: Artificial Intelligence: A Modern Approach, Russell R & Norvig P</p>
 
          20 credits
       </div>
@@ -207,6 +235,8 @@ With that out the way, here's the full list.
           <li>Information theory</li>
         </ul>
 
+        <p>Textbook: Digital Signal Processing, John G. Proakis & Dimitris G. Manolakis</p>
+
          10 credits
       </div>
     </div>
@@ -220,10 +250,13 @@ With that out the way, here's the full list.
     <div class="csdegree-sem-wrap">
       <div class="csdegree-course"><summary><a href="http://www.drps.ed.ac.uk/18-19/dpt/cxinfr10022.htm">Professional Issues</a></summary>
         <p>This course was focused on "soft" skills such as ethical, legal and financial issues for software development businesses.</p>
+        <p>Textbook: Professional Issues in Information Technology, Frank Bott</p>
         <p>10 credits</p>
       </div>
       <div class="csdegree-course"><summary><a href="http://www.drps.ed.ac.uk/18-19/dpt/cxinfr09051.htm">Informatics Large Practical</a></summary>
         <p>This was a project course that required students to build an Android game. There was a specification, but some room for creativity. <a href="https://github.com/notexactlyawe/coinz">My code from this course is on GitHub</a></p>
+
+        <p>No textbook</p>
 
         <p>20 credits</p>
       </div>
@@ -239,6 +272,8 @@ With that out the way, here's the full list.
           <li>RISC</li>
         </ul>
 
+        <p>Textbook: 'Computer Organization', V. C. Hamacher, Z. G. Vranesic & S. G. Zaky</p>
+
          20 credits
       </div>
       <div class="csdegree-course optional"><summary><a href="https://www.inf.ed.ac.uk/teaching/courses/ivr/">Introduction to Vision and Robotics</a> (optional)</summary>
@@ -249,6 +284,8 @@ With that out the way, here's the full list.
           <li>Active vision and attention</li>
         </ul>
 
+        <p>Textbook: Russell & Norvig Chapters 24 & 25 in Artificial Intelligence: A Modern Approach</p>
+
          10 credits
       </div>
     </div>
@@ -258,6 +295,8 @@ With that out the way, here's the full list.
     <div class="csdegree-sem-wrap">
     <div class="csdegree-course"><summary><a href="http://www.drps.ed.ac.uk/18-19/dpt/cxinfr09032.htm">System Design Project</a></summary>
         <p>This was a group project to build a lego robot with the theme of "assistive technology". My team chose to build a chess-playing robot to enable disabled players to compete in tournaments more easily. See the <a href="https://github.com/deeper-blue/">Deeper Blue GitHub organisation</a> for more details.</p>
+
+        <p>No textbook</p>
 
         <p>20 credits</p>
       </div>
@@ -274,6 +313,8 @@ With that out the way, here's the full list.
           <li>Web security</li>
         </ul>
 
+        <p>Textbook: Introduction to Computer Security, Michael Goodrich and Robert Tamassia Pearson</p>
+
          20 credits
       </div>
       <div class="csdegree-course optional"><summary><a href="http://www.drps.ed.ac.uk/18-19/dpt/cxinfr09047.htm">Operating Systems</a> (optional)</summary>
@@ -285,6 +326,8 @@ With that out the way, here's the full list.
           <li>Scheduling</li>
           <li>File management</li>
         </ul>
+
+        <p>Textbook: 'Operating Systems, Internals and Design Principles', W. Stallings</p>
 
          20 credits
       </div>
@@ -305,6 +348,8 @@ With that out the way, here's the full list.
           <li>Implement a new sampling method and material in PBRT</li>
         </ul>
 
+        <p>Textbook: <a href="http://www.pbr-book.org/">'Physically Based Rendering'</a>, Matt Pharr, Greg Humphreys & Wenzel Jakob</p>
+
          10 credits
       </div>
       <div class="csdegree-course optional"><summary><a href="http://www.drps.ed.ac.uk/18-19/dpt/cxinfr11088.htm">Extreme Computing</a> (optional)</summary>
@@ -315,6 +360,8 @@ With that out the way, here's the full list.
           <li>Fault tolerance</li>
           <li>Hadoop/MapReduce</li>
         </ul>
+
+        <p>Textbook: Data Intensive Text Processing with MapReduce, Jimmy Linn & Chris Dyer</p>
 
          10 credits
       </div>
@@ -327,6 +374,8 @@ With that out the way, here's the full list.
           <li>Speech recognition features</li>
           <li>Hidden Markov models</li>
         </ul>
+
+        <p>Textbook: Speech and Language Processing, Jurafsky, D and J. H. Martin</p>
 
          20 credits
       </div>
@@ -345,6 +394,8 @@ With that out the way, here's the full list.
           <li>Software defined networking</li>
         </ul>
 
+        <p>Textbook: Computer Networking: A Top-Down Approach, J. F. Kurose and K. W. Ross</p>
+
          20 credits
       </div>
       <div class="csdegree-course optional"><summary><a href="http://www.inf.ed.ac.uk/teaching/courses/asr/">Automatic Speech Recognition</a> (optional)</summary>
@@ -362,6 +413,8 @@ With that out the way, here's the full list.
           <li>Speaker verification and diarization</li>
         </ul>
 
+        <p>Textbook: Speech and Language Processing, Jurafsky, D and J. H. Martin</p>
+
          10 credits
       </div>
       <div class="csdegree-course optional"><summary><a href="http://www.inf.ed.ac.uk/teaching/courses/st/2017-18/index.html">Software Testing</a> (optional)</summary>
@@ -374,6 +427,8 @@ With that out the way, here's the full list.
           <li>TDD</li>
           <li>Regression testing</li>
         </ul>
+
+        <p>Textbook: Software Testing and Analysis: Process, Principles and Techniques, Pezze and Young</p>
 
          10 credits
       </div>
