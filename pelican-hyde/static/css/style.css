@@ -111,6 +111,27 @@ div.full-year {
   width: 70%;
 }
 
+.category {
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.other-articles {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.other-article {
+    min-width: 100px;
+    width: 40%;
+}
+
+.verticalline {
+    border-left: 1px solid grey;
+    margin: 0 1em;
+}
+
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
 #mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.2em;}

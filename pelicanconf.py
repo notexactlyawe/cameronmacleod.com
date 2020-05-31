@@ -54,5 +54,8 @@ SOCIAL = (('linkedin', 'https://uk.linkedin.com/in/cameronjohnmacleod'),
 
 DEFAULT_PAGINATION = 20
 
+PLUGIN_PATHS = ["/home/cameron/src/pelican-plugins"]
+PLUGINS = ["neighbors"]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True

@@ -7,7 +7,28 @@
 	<p class="subtitle">{{ article.subtitle }}</p>
 	{% endif %}
 	<span class="post-date">{{ article.locale_date }}</span>
+    <span class="category"><a href="/{{ article.category.url }}">{{ article.category }}</a></span>
 	{{ article.content }}
+    <hr />
+    <div class="other-articles">
+        <div class="other-article">
+            <h3 class="other-articles-headers">&lt; Older</h3>
+            {% if article.prev_article %}
+            <a href="/{{ article.prev_article.url }}">
+                {{ article.prev_article.title }}
+            </a>
+            {% endif %}
+        </div>
+        <div class="verticalline"></div>
+        <div class="other-article">
+            {% if article.next_article %}
+            <h3 class="other-articles-headers">Newer &gt;</h3>
+            <a href="/{{ article.next_article.url }}">
+                {{ article.next_article.title }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
 	{% include 'fragments/disqus.html' %}
 </div>
 <!-- Begin Mailchimp Signup Form -->

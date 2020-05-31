@@ -11,6 +11,7 @@
 				<p class="subtitle">{{ article.subtitle }}</p>
 				{% endif %}
 				<span class="post-date">{{ article.locale_date }}</span>
+                <span class="category"><a href="/{{ article.category.url }}">{{ article.category }}</a></span>
 				<p>
 					{{ article.summary }}
 				</p>
