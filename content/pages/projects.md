@@ -26,4 +26,4 @@ This was a group project for university to build an assistive robot. We chose to
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/LZ7THTB88AE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 [Spanish version](https://www.youtube.com/watch?v=KMMHJch77dk)
 
-Shazam released a paper in 2003 on how their algorithm worked. Shazam is fascinating to me and so I set out trying to replicate the paper's algorithm in Python. I never quite finished the project, but I gave a talk on it at EuroPython 2016.
+Shazam released a paper in 2003 on how their algorithm worked. Shazam is fascinating to me and so I set out trying to replicate the paper's algorithm in Python. I gave a talk on the project at EuroPython 2016. I also published [an explanation](/blog/how-does-shazam-work) on how it works.
