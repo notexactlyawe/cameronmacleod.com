@@ -9,9 +9,9 @@ SITEURL = ''
 PATH = 'content'
 OUTPUT_PATH = 'develop-output'
 
-THEME='pelican-hyde'
+THEME = 'pelican-hyde'
 
-PROFILE_IMAGE='profile.jpg'
+PROFILE_IMAGE = 'profile.jpg'
 
 TIMEZONE = 'Europe/London'
 
@@ -49,8 +49,8 @@ LINKS = (('About', '/about'),
 
 # Social widget
 SOCIAL = (('linkedin', 'https://uk.linkedin.com/in/cameronjohnmacleod'),
-        ('github', 'https://github.com/notexactlyawe'),
-        ('flickr', 'https://www.flickr.com/photos/rotor132'))
+          ('github', 'https://github.com/notexactlyawe'),
+          ('flickr', 'https://www.flickr.com/photos/rotor132'))
 
 DEFAULT_PAGINATION = 20
 
@@ -58,4 +58,4 @@ PLUGIN_PATHS = ["/home/cameron/src/pelican-plugins"]
 PLUGINS = ["neighbors"]
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
