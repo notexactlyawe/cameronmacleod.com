@@ -396,13 +396,40 @@ In the above table, you can see that all the matches with a *Track time - Sample
 
 The above diagram contains the same hashes from the previous table. As you can see, the true matches have a *Track time - Sample time* that is equal to how far into the track time that the sample starts.
 
-While we don't know, for a given sample, the track time that it is taken from, we would expect the majority of matches to line up for the correct song. Therefore, we can take the song with the highest number of shared *'Sample time - Track time'*s as the correct match.
+To see how we turn this into a score for the track, let's make this data into a histogram. A histogram is a fancy name for a bar chart. We're going to plot each *Track time - Sample time* against the number of times it occurs:
+
+![Histogram showing frequency of 'Track time - Sample time'](/images/abracadabra/sample_histogram.png)
+
+Each bar in the histogram above is referred to as a **bin**. To score a song on how good a match it is for an audio sample, we just need to take the largest bin. Songs that aren't good matches will have low values in all bins, whereas a song that's a good match will have a large spike in one of the bins.
+
+This way we can compare a sample to all the songs with matching hashes in our database and score each of them. The song with the highest score is likely to be the correct result.
 
 You might wonder why we don't just go for the song that matches the largest number of hashes as it would be much simpler to implement. The problem with this approach is that not all songs are the same length. Longer songs are likely to get more matches than shorter songs and when some Spotify tracks are [over 4 hours long](https://www.reddit.com/r/spotify/comments/9i2ps6/longest_song_on_spotify/) this can really bias your results!
 
+## Conclusion
+
+Well done for making it this far, that was a long journey! Over the course of this article, you've learned how Shazam extracts fingerprints from audio, and how it matches these fingerprints to those that it has already registered in its database.
+
+To summarise, Shazam does the following to **register** a song:
+
+ - Calculates a **spectrogram** of a song
+ - Extracts **peaks** from that spectrogram
+ - Pairs those peaks up into **hashes**
+ - Stores the collection of hashes for a song as a **fingerprint**
+
+Shazam does the following to **recognise** an audio sample:
+
+ - Calculates a **fingerprint** of the audio sample
+ - Finds the **hashes** that match that fingerprint in the database
+ - For each potential song match:
+    - Calculate **Track time - Sample time** for each matching hash
+    - Group those values into a **histogram**
+    - Take the largest bin in this histogram as the **score** for the song
+ - Return the song with the highest score
+
 ## Enter abracadabra
 
-Well done for making it this far, that was a long journey! I learned everything written here over the process of writing [abracadabra](https://github.com/notexactlyawe/abracadabra), my implementation of this paper.
+I learned everything written here over the process of writing [abracadabra](https://github.com/notexactlyawe/abracadabra), my implementation of this paper.
 
 If you are interested in seeing what this might look like in code, please take a look! Everything is open source and I've done my best to document the project. abracadabra can also be used as a library in other projects, so please feel free to re-mix and build something cool. If you do use it, I'd love to [hear about it](/about).
 
