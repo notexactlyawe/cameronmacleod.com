@@ -58,7 +58,7 @@ function replace_email() {
 
 Hello! I'm Cameron, and this is my personal blog. New posts come out sometimes, and usually are on technical topics related to software development. If you want to contact me you can email me at <a href="#" id="emailclick" onclick="replace_email()">click to reveal</a> or find me in one of the sidebar links.
 
-I'm just about to graduate from the University of Edinburgh with a degree in computer science and will be joining Google as an associate product manager in August. Previously I've done a few internships in software development (see my [CV](/cv.pdf)).
+I'm currently an associate product manager at Google. Previously I've done a few internships in software development (see my [CV](/cv.pdf)) and I studied Computer Science at the University of Edinburgh.
 
 In my free time you can find me coding, writing, playing the bass or more likely starting projects that I will never finish.
 
