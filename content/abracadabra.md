@@ -3,6 +3,7 @@ Date: 2022-02-19
 Slug: how-does-shazam-work
 Tags: abracadabra, Audio, Python
 Category: Tutorials
+header_image: images/abracadabra/header.png
 
 ![](/images/abracadabra/header.png)
 

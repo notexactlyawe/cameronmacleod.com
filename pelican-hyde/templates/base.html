@@ -12,6 +12,10 @@
 	{% if article %}
 	<meta name="title" property="og:title" content="{{ article.title }} - {{ SITENAME }}">
 	<meta property="og:type" content="Article">
+	<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}" />
+	{% if article.header_image is defined %}
+	<meta property="og:image" content="{{ SITEURL }}/{{ article.header_image }}" />
+	{% endif %}
 	{% endif %}
 
 	<meta name="author" content="Cameron MacLeod">
