@@ -1,5 +1,9 @@
 {% extends "base.html" %}
 
+{% block headmeta %}
+    <meta name="description" content="{{ SITE_DESCRIPTION }}">
+{% endblock headmeta %}
+
 {% block content %}
 	<div class="posts">
 		{% for article in articles_page.object_list %}

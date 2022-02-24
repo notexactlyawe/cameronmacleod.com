@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = u'Cameron MacLeod'
 SITENAME = u'Cameron MacLeod'
 SITEURL = ''
+SITE_DESCRIPTION = 'Hi! I\'m a product manager that enjoys writing \
+both code and English in my spare time.'
 
 PATH = 'content'
 STATIC_PATHS = ['images', '.']
@@ -53,7 +55,7 @@ SOCIAL = (('linkedin', 'https://uk.linkedin.com/in/cameronjohnmacleod'),
           ('github', 'https://github.com/notexactlyawe'),
           ('flickr', 'https://www.flickr.com/photos/rotor132'))
 
-DEFAULT_PAGINATION = 20
+DEFAULT_PAGINATION = 5
 
 PLUGIN_PATHS = ["/home/cameron/src/pelican-plugins"]
 PLUGINS = ["neighbors"]
