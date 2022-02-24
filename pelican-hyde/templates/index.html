@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% block headmeta %}
+{% if "index" in output_file %}
     <meta name="description" content="{{ SITE_DESCRIPTION }}">
+{% endif %}
 {% endblock headmeta %}
 
 {% block content %}

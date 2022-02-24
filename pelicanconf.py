@@ -34,6 +34,10 @@ PAGE_SAVE_AS = "{slug}.html"
 ARTICLE_URL = "blog/{slug}"
 ARTICLE_SAVE_AS = "blog/{slug}.html"
 
+# Disable author page
+AUTHOR_SAVE_AS = ''
+AUTHORS_SAVE_AS = ''
+
 # Markdown extensions
 MARKDOWN = {
     'extension_configs': {
