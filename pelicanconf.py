@@ -7,6 +7,7 @@ SITENAME = u'Cameron MacLeod'
 SITEURL = ''
 
 PATH = 'content'
+STATIC_PATHS = ['images', '.']
 OUTPUT_PATH = 'develop-output'
 
 THEME = 'pelican-hyde'
