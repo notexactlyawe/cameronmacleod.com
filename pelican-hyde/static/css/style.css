@@ -146,9 +146,14 @@ div.full-year {
     margin: 0 1em;
 }
 
+#signup_separator {
+    height: 5px;
+    background-color: #eee;
+}
+
 /* MailChimp Form Embed Code - Classic - 12/17/2015 v10.7 */
 #mc_embed_signup form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
-#mc_embed_signup h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.2em;}
+#mc_embed_signup h2 {font-weight:normal; padding:0; margin:15px 0; font-size:1.2em;}
 #mc_embed_signup input {border: 1px solid #ABB0B2; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
 #mc_embed_signup input[type=checkbox]{-webkit-appearance:checkbox;}
 #mc_embed_signup input[type=radio]{-webkit-appearance:radio;}
@@ -162,7 +167,7 @@ div.full-year {
 #mc_embed_signup .size1of2 {clear:none; float:left; display:inline-block; width:46%; margin-right:4%;}
 * html #mc_embed_signup .size1of2 {margin-right:2%; /* Fix for IE6 double margins. */}
 #mc_embed_signup .mc-field-group label {display:block; margin-bottom:3px;}
-#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+#mc_embed_signup .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%; max-width:400px;}
 #mc_embed_signup .mc-field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
 
 #mc_embed_signup .datefield, #mc_embed_signup .phonefield-us{padding:5px 0;}
@@ -175,8 +180,9 @@ div.full-year {
 #mc_embed_signup .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
 #mc_embed_signup .clear {clear:both;}
 
+#mc_embed_signup .mc-field-group.input-group p {margin:0; font-size:1.1em;}
 #mc_embed_signup .mc-field-group.input-group ul {margin:0; padding:5px 0; list-style:none;}
-#mc_embed_signup .mc-field-group.input-group ul li {display:block; padding:3px 0; margin:0;}
+#mc_embed_signup .mc-field-group.input-group ul li {display:inline; padding:3px 0; margin:0;}
 #mc_embed_signup .mc-field-group.input-group label {display:inline;}
 #mc_embed_signup .mc-field-group.input-group input {display:inline; width:auto; border:none;}
 
