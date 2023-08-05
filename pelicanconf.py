@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = u'Cameron MacLeod'
 SITENAME = u'Cameron MacLeod'
 SITEURL = ''
-SITE_DESCRIPTION = 'Hi! I\'m a product manager that enjoys writing \
+SITE_DESCRIPTION = 'Hi! I\'m a software engineer that enjoys writing \
 both code and English in my spare time.'
 
 PATH = 'content'
