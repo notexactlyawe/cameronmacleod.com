@@ -31,16 +31,27 @@ Tackling the second issue first, you could minimise the number of calls to `unpa
 
 ```python
 ...
-chunk_size = 16
-while wav_r.tell() < wav_r.getnframes():
-    fmt = "<" + "h" * chunk_size
-    try:
-        decoded = struct.unpack(fmt, wav_r.readframes(chunk_size))
-    except struct.error:
-        # (w.getnframes() - w.tell()) < chunk_size
-        tmp_size = w.getnframes() - w.tell()
-        tmp_fmt = "<" + "h" * chunk_size
-        decoded = struct.unpack(tmp_fmt, wav_r.readframes(tmp_size))
+def read_whole(path, chunk_size=16):
+    ret = []
+    with wave.open(path, 'rb') as wav_r:
+        nchannels = wav_r.getnchannels()
+        nframes = wav_r.getnframes()
+
+        frame_to_read = nframes * nchannels
+
+        while wav_r.tell() < frame_to_read:
+            current_pos = wav_r.tell()
+            fmt = f"<{chunk_size}h"
+            try:
+                decoded = struct.unpack(fmt, wav_r.readframes(chunk_size))
+            except struct.error:
+                # Fail to interpret bytes as packed binary data (number of frames left < chunk_size)
+                tmp_size = frame_to_read - current_pos  # redefine size
+                tmp_fmt = f"<{tmp_size}h"  # redefine format
+                wav_r.setpos(current_pos)  # reset pointer to cancel readframes in try statement
+                decoded = struct.unpack(tmp_fmt, wav_r.readframes(tmp_size))
+            ret += decoded
+    return ret
 ...
 ```
 
