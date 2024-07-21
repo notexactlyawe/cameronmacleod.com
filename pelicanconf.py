@@ -44,7 +44,10 @@ MARKDOWN = {
         'markdown.extensions.codehilite': {'css_class': 'highlight'},
         'markdown.extensions.extra': {},
         'markdown.extensions.meta': {},
-        'markdown.extensions.toc': {}
+        'markdown.extensions.toc': {
+            "permalink": "#",
+            "permalink_title": "Link to heading"
+        }
     },
     'output_format': 'html5',
 }
